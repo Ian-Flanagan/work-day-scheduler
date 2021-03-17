@@ -1,12 +1,2 @@
-var containerEl = document.querySelector(".container")
-console.log(containerEl);
-
-var currentDayEl = document.getElementById("currentDay")
-console.log(currentDayEl);
-
-function loadCurrent() {
-    var currentDay = moment().format("dddd, MMMM Do YYYY");
-    currentDayEl.textContent = currentDay
-
-}
-loadCurrent();
+var todayDate = moment().format('dddd, MMM Do YYYY');
+$("#currentDay").html(todayDate);
