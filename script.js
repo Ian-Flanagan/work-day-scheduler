@@ -35,7 +35,7 @@ $(document).ready(function () {
             }
         })
     }
-    $("#hour7 .description").val(localStorage.getItem("hour7"))
+    $("#hour7 .description").val(localStorage.getItem("hour7"));
     $("#hour8 .description").val(localStorage.getItem("hour8"));
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
